@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+nav {
+    padding-top: 11px;
+
+    .nav__icon-div {
+        display: flex;
+        gap: 10px;
+
+        .nav__icon {
+            font-style: 24px;
+            color: #fff;
+        }
+    }
+
+    .nav__vitau-div {
+        display: flex;
+        justify-content: end;
+
+        .nav__vitau {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 16px;
+            text-decoration-line: underline;
+        }
+    }
+
+    .nav__list {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+        margin-top: 10px;
+
+        .nav__list-iteam {
+            color: #000;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+        }
+    }
+
+    .btn1 {
+        padding: 10px 15px;
+        border-radius: 12px;
+        background: #5D7A50;
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        border: none;
+        outline: none;
+    }
+
+
+}
+
+
+header {
+    padding-top: 85px;
+    padding-bottom: 145px;
+
+    .header__num {
+        color: #000;
+        font-family: Lena;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 111.5px;
+
+
+
+
+    }
+
+    .header__text {
+        color: #000;
+        font-family: Lena;
+        font-size: 66px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 102px;
+        margin-bottom: 27px;
+
+
+    }
+
+    .header__btn2 {
+        padding: 40px 46px;
+        border-radius: 12px;
+        background: #b9f39f;
+        color: #000000;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        border: none;
+        outline: none;
+    }
+
+    .header__two-image {
+
+        .header__image {
+            margin-left: 80px;
+        }
+
+        .header__image2 {
+            position: absolute;
+            margin-left: -100px;
+            margin-top: 200px;
+        }
+    }
+}
+
+.section1 {
+
+    .section1__text {
+        color: #000;
+        font-family: Lena;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+
+    .section1__card {
+        border-radius: 12px;
+        padding-left: 23px;
+        width: 305.971px;
+        margin-bottom: 30px;
+        height: 157.903px;
+
+        .sec1__card-shag {
+            color: #FCFCFC;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+            padding-top: 20px;
+
+        }
+
+        .sec1__card-shag2 {
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+            padding-bottom: 50px;
+
+            .sec1__card-shag2-span1 {
+                color: #000000;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+                padding-bottom: 50px;
+            }
+        }
+    }
+}
+
+
+.section2 {
+    .section2__text {
+        color: #000;
+        font-family: Lena;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 100px;
+        margin-bottom: 60px;
+
+    }
+
+    .setion2__black-vid {
+        width: 850px;
+        height: 418px;
+    }
+
+    .section2__button-div {
+        margin-top: 30px;
+        .section2__btn4 {
+            padding: 10px 20px;
+            border-radius: 12px;
+            background: #F5E489;
+            color: #000;
+            font-family: Montserrat;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            border: none;
+            margin-bottom: 15px;
+        }
+    }
+
+
+}
